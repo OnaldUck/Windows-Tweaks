@@ -5,4 +5,8 @@ Optionen > Video > Videorender > Enhanced Video Render (custom presets) > Präse
 
 ## Scrolrichtung invertieren / änder auf natürlich wie bei Mac
 Einfach in Powershell folgenden Script ausführen
-'Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath FlipFlopWheel 1 }'
+
+```
+Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath FlipFlopWheel 1 }'
+
+```
