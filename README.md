@@ -25,3 +25,18 @@ Es gibt auch zwei Verzeichnise, die recht groß sind und sich nicht verschieben 
 mklink /d "c:\Program Files (x86)\Steam\steamapps\workshop\" "d:\Render\Steam\workshop\"
 mklink /d "c:\Program Files (x86)\Steam\steamapps\common\SteamVR\" "d:\Render\Steam\SteamVR\"
 ```
+### Hi DPI Remotedesktop
+Remote Desktop vier Bildschirme mit 4K Auflösung.
+
+```
+https://poweruser.blog/remote-desktop-client-on-hidpi-retina-displays-work-around-pixel-scaling-issues-1529f142ca93
+cd %systemroot%\system32
+copy mstsc.exe mstsc2.exe
+cd %systemroot%\system32\de-de\
+copy mstsc.exe.mui mstsc2.exe.mui
+```
+```
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" /t REG_SZ /v "C:\Windows\System32\mstsc2.exe" /d "~ DPIUNAWARE" /f
+```
+
+Jetzt muss man nur noch eine Desktopverknüpfung mit **mstsc2.exe** erstellen.
