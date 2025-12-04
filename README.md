@@ -40,3 +40,5 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
 ```
 
 Jetzt muss man nur noch eine Desktopverknüpfung mit **mstsc2.exe** erstellen.
+
+### Ansicht für Ordner übernehmen
