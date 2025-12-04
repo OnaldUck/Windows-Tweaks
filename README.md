@@ -28,7 +28,7 @@ mklink /d "c:\Program Files (x86)\Steam\steamapps\workshop\" "d:\Render\Steam\wo
 mklink /d "c:\Program Files (x86)\Steam\steamapps\common\SteamVR\" "d:\Render\Steam\SteamVR\"
 ```
 ### Hi DPI Remotedesktop
-Remote Desktop vier Bildschirme mit 4K Auflösung.
+Remote Desktop für Bildschirme mit 4K Auflösung.
 
 ```
 https://poweruser.blog/remote-desktop-client-on-hidpi-retina-displays-work-around-pixel-scaling-issues-1529f142ca93
