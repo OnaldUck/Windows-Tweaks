@@ -42,3 +42,12 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
 Jetzt muss man nur noch eine Desktopverknüpfung mit **mstsc2.exe** erstellen.
 
 ### Ansicht für Ordner übernehmen
+Die Ansicht für alle Bilderordner einmal definieren.
+
+1. In den gewünschten Ordner reingehen. **Ansicht > Optionen > Ansicht > Für Ordner übernehem**
+
+![Image](https://github.com/user-attachments/assets/f35f105b-fed8-47ea-86cf-4e37861876b1)
+
+2. **Rechte Maus auf den Ordner > Anpassen > Ordertyp** wählen
+
+![Image](https://github.com/user-attachments/assets/b0a4d651-5bb2-4847-b361-e18a25c8dfd7)
